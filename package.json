@@ -1,0 +1,21 @@
+{
+  "name": "school_scrape",
+  "version": "3.5.0",
+  "description": "Bot that watches Southwest flights for price drops.",
+  "author": "Sam Yun",
+  "license": "MIT",
+  "repository": "git@github.com:samyun/southwest-price-drop-bot.git",
+  "homepage": "https://github.com/samyun/southwest-price-drop-bot",
+  "bugs": "https://github.com/samyun/southwest-price-drop-bot/issues",
+  "main": "index.js",
+  "private": true,
+  "engines": {
+    "node": "^12.8.0",
+    "npm": "^6.10.3",
+    "yarn": "^1.17.3"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "puppeteer": "^2.1.1"
+  }
+}
