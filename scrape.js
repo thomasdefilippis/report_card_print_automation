@@ -1,7 +1,8 @@
 // if things break, use `rm -rf node_modules; npm install`
 
 // https://github.com/puppeteer/puppeteer
-const puppeteer = require('puppeteer');
+const puppeteer = require('puppeteer-extra');
+puppeteer.use(require('puppeteer-extra-plugin-repl')());
 
 (async () => {
   const browser = await puppeteer.launch({
@@ -19,8 +20,9 @@ const puppeteer = require('puppeteer');
   await page.type('input[name=ScreenName]', 'username');
   await page.type('input[name=pw]', 'password');
 
+  page.repl()
+
   await page.click('div[class=newLoginElement] input[type=image]');
 
-  await page.waitForNavigation();
-
+  debugger
 })();
