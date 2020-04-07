@@ -1,37 +1,6 @@
-const JsdomEnvironment = require('jest-environment-jsdom');
 const puppeteer = require('node_modules/puppeteer');
-// class student {
-//     constructor(name, grade, subject) {
-//         this._name = name;
-//         this._grade = grade;
-//         this._subject = subject;
-//     };
-
-//     get name() {
-//         return this._name;
-//     };
-
-//     get grade() {
-//         return this._grade;
-//     };
-
-//     get class() {
-//         return this._grade;
-//     };
-// };
-
-// let final_students = [];
-
-// let students = ["Joey",'Ava',"Caedmon", "Mary Clare"];
 
 
-
-// for(i = 0; i < students.length; i++){
-//     temporary_student = new student(students[i], '8th', 'science');
-//     final_students.push(temporary_student);
-// }
-
-// console.log(final_students);
 
 $(document).ready(() => {
 
